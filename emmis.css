@@ -1,0 +1,41 @@
+.emmis {
+    background-image: url("../images/backgrounds/emmis.png");
+    background-repeat: repeat-x;
+}
+
+.emmis .branding img {
+    margin-left: -54px;
+    width: 1032px;
+}
+
+
+.emmis .band-container {
+    height: 480px;
+}
+
+.emmis .band-container .band {
+    text-align: left;
+}
+
+.band-container .band.band-templates {
+    background-image: linear-gradient(to bottom, #FFF, #daebf3);
+}
+.band-container .band.band-templates,
+.band-container .band.band-custom{
+    display: flex;
+    justify-content: center;
+}
+
+.band-container .band.band-custom {
+    background-image: linear-gradient(to bottom, #FFF, #FFF 66%, #daebf3 66%, #FFF 83%);
+
+}
+
+.band-container .band.band-templates .section,
+.band-container .band.band-custom .section{
+    width: 930px;
+}
+
+.emmis .custom-design-content {
+    margin-left: -145px;
+}

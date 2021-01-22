@@ -1,0 +1,35 @@
+body {
+    height: 50%;
+}
+.scrolling-view {
+    display: flex;
+
+    background-color: #808080;
+    -webkit-transform-origin: left top;
+    -moz-transform-origin: left top;
+    -ms-transform-origin: left top;
+    -o-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: scale(0.5); /* Saf3.1+, Chrome */
+    -moz-transform: scale(0.5); /* FF3.5+ */
+    -ms-transform: scale(0.5); /* IE9 */
+    -o-transform: scale(0.5); /* Opera 10.5+ */
+    transform: scale(0.5);
+    width: 200%;
+    /*height: 400%;*/
+    overflow-x: scroll;
+    /*overflow-y: hidden;*/
+    scroll-snap-type: x proximity;
+    scroll-padding: 7px;
+}
+.scrolling-view > div {
+    padding: 14px 7px;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+.scrolling-view > div:first-child {
+    padding-left: 14px;
+}
+.scrolling-view > div:last-child {
+    padding-right: 14px;
+}

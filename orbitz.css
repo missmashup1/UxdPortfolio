@@ -1,0 +1,35 @@
+.orbitz {
+    background-image: url("../images/backgrounds/orbitz-header-photos.png"), url("../images/backgrounds/orbitz.png");
+    background-repeat: no-repeat, repeat-x;
+    background-position: center top, center top;
+}
+.orbitz .top-30 {
+    margin-top: 30px;
+}
+.orbitz .branding {
+    margin-top: 146px;
+    margin-bottom: 30px;
+}
+.orbitz .band .section {
+    width: 930px;
+    margin: 0 auto;
+}
+.orbitz .band-container.reskin {
+    margin-bottom: 540px;
+}
+
+.orbitz .band-container.reskin .band {
+    background-image: linear-gradient(to bottom, #FFF, #B9E4FE);
+}
+
+.orbitz .band-container.design-system-2 {
+    margin-bottom: 620px;
+}
+.orbitz .band-container.design-system-2 .band {
+    padding-top: 30px;
+    background-color: #dff2fe;
+}
+
+.orbitz .main-carousel {
+    margin-bottom: 70px;
+}
